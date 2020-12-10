@@ -1,38 +1,38 @@
+@-ms-viewport{
+  width: device-width;
+}
+
 .App {
-  text-align: center;
+  /* text-align: center; */
+  background-image:url('https://ch3302files.storage.live.com/y4mDv9mxi-ca2lEcQ_T2CIJnY03JO4pU-jrSNxkCAlJi89rMVZVYDui8ed0H0SMcOUMskzHm4JYhZmzOKoZaaulkRVN0sUPer1cywka_lD3uvjFUpDxK9OimGnspNvQGlfE2gooty78bCldYSWJwwZSuuhdcGUutKCOtF9Zkb3_tnA?width=768&height=1366&cropmode=none');
+  height:100vh;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  overflow: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* anything greater than mobile */
+@media screen and (min-width:775px) {
+  .App{
+    background-image: url('https://ch3302files.storage.live.com/y4m2Fa01qqjIlWN8aOywEiTstjVfXn7k94s0wxhh9IC9MKQgrx4lMK3AjP6CimVvMvvJE8jKr7SKRbb6Fj4SIRJTuFHukciO5Cg0rZxLJEDEARTPm8zfEX-Y6U-BghJy_fAyhscJoioxIPQQkTZ25A1fPUZiK-lXxFjPX6tqGSSgks?width=1366&height=768&cropmode=none');
+    background-position: top center;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    /* background-position: 50% 90%; */
+    /* transform: rotate(-90deg); */
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
+/* .App-link {
   color: #61dafb;
-}
+} */
 
-@keyframes App-logo-spin {
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+} */
