@@ -8,6 +8,8 @@
   background-color: black;
   height: 6%;
   box-shadow:0 10px 10px 10px black;
+  padding-top:1em;
+  box-sizing: border-box;
 }
 
 .toolbar__navigation {
@@ -15,7 +17,7 @@
   height: 100%;
   align-items: flex-end;
   padding: 0 1rem;
-  margin: 0 5em;
+  /* margin: 0 5em; */
 }
 
 .toolbar__logo {
@@ -56,14 +58,17 @@
   color: silver;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .toolbar__navitgation-items {
     display: none;
   }
 }
-@media (min-width: 769px) {
+@media (min-width: 900px) {
   .toolbar__toggle {
     display: none;
+  }
+  .toolbar__navigation {
+    margin: 0 5%;
   }
 }
 

@@ -22,10 +22,14 @@ h1,h2,h3,.hero-text{
 .view{
   /* background-color: pink; */
   position: absolute;
+  left: 50%;
+  top: 55%;
+  transform: translate(-50%, -50%);
   width: 80%;
   height: 80%;
-  top: 15%;
-  left: 10%;
+  /* left: 10%; */
+  /* transform: translateX(50%); */
+
   /* margin-top: -100px; 
   margin-left: -250px; */
 }
@@ -41,6 +45,9 @@ nav{
 
 
 .cta{
+  /* position: relative;
+  top:80; */
+  margin-top:10%;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -49,7 +56,7 @@ nav{
 .cta-btn{
   box-sizing: border-box;
   width:100%;
-  padding:2em 5%;
+  padding:1em 5%;
   border: 5px solid black;
   text-decoration: none;
   text-align: center;
@@ -60,7 +67,7 @@ nav{
   letter-spacing: 0.5em;
   background-color:RGBA(255,255,255,0.2);
   box-shadow: 0.25em 0.25em 0.25em gray;
-  margin-top:80%;
+  /* margin-top:5%; */
   /* position: relative; */
   /* top: 100; */
   /* left:15%; */
@@ -74,8 +81,9 @@ nav{
 @media screen and (min-width:548px) {
   .cta-btn{
     width:100%;
+    padding:2em 5%;
     font-size:140%;
-    margin-top:80%;
+    margin-top:10%;
   }
 }
 @media screen and (min-width:730px) {
@@ -84,7 +92,7 @@ nav{
   }
   .cta-btn{
     width:50%;
-    margin-top:20%;
+    margin-top:15%;
     /* margin-bottom:20% !important; */
   }
 }
