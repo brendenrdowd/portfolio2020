@@ -96,6 +96,16 @@ nav{
     /* margin-bottom:20% !important; */
   }
 }
+@media screen and (min-width:1000px) {
+  .App{
+    background-position: top center;
+  }
+  .cta-btn{
+    width:40%;
+    margin-top:10%;
+    /* margin-bottom:20% !important; */
+  }
+}
 
 
 .container {
