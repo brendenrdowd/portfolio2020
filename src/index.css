@@ -14,7 +14,7 @@ code {
     monospace;
 }
 
-h1,h2,h3{
+h1,h2,h3,.hero-text{
   font-family: 'Fira Code', monospace;
   display:block
 }
@@ -84,8 +84,8 @@ nav{
   }
   .cta-btn{
     width:50%;
-    margin-top:50%;
-    margin-bottom:20% !important;
+    margin-top:30%;
+    /* margin-bottom:20% !important; */
   }
 }
 
