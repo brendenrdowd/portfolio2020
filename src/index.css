@@ -14,6 +14,10 @@ code {
     monospace;
 }
 
+h3{
+  font-size:2vw;
+}
+
 h1,h2,h3,.hero-text{
   font-family: 'Fira Code', monospace;
   display:block
@@ -40,8 +44,32 @@ nav{
 
 
 .hero-text {
-  font-size:3em;
+  font-size:2em;
 }
+
+@media screen and (min-width:350px){
+  .hero-text
+  {
+    font-size:2.5em;
+  }
+}
+
+@media screen and (min-width:400px){
+  .hero-text
+  {
+    font-size:3em;
+  }
+  .cta-btn{
+    /* transform: translate (80%); */
+  }
+}
+
+/* @media screen and (min-width:400px){
+  .hero-text
+  {
+    font-size:2.5em;
+  }
+} */
 
 
 .cta{
@@ -107,6 +135,80 @@ nav{
   }
 }
 
+.backgroundFill{
+  display:flex;
+  padding:1.5em;
+  min-height:30%;
+  max-height:80%;
+  flex-direction:column;
+  /* justify-content: space-around; */
+  background-color:rgba(255,255,255,0.4);
+  word-wrap:break-word;
+  overflow-y:auto;
+  box-shadow:3px 3px 30px gray;
+}
+
+.backgroundFill > h2 {
+  margin:auto;
+  font-size:4vw;
+  text-align: center;
+}
+.backgroundFill > p {
+  font-weight:bold;
+  margin:1em;
+  font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.mailLink{
+  text-decoration:none;
+  font-weight:bold;
+  font-size:4.5vw;
+  color:#203b51;
+}
+
+.center{
+  align-items: center;
+  margin:auto;
+  text-align: center;
+}
+
+.left{
+  text-align:left !important;
+  align-items: flex-start;
+}
+
+@media (min-width: 768px) {
+  .backgroundFill{
+      transform: translateY(50%);
+  }
+}
+@media (min-width: 768px) {
+  .backgroundFill > h2 {
+    font-size:2vw;
+  }
+  
+  .mailLink{
+    font-size:2.5vw;
+  }
+}
+
+.logoBar{
+  display:flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-around;
+  padding:0;
+  margin:auto;
+}
+
+.logoLink{
+  color:black;
+  margin:1em;
+}
+.logoLink:hover{
+  color:slategray;
+  /* box-shadow:0.5em 0.5em 1em gray; */
+}
 
 .container {
   width: 100%;
