@@ -44,6 +44,36 @@ export default function Work() {
       </div>
       <p>Nutrionist is a mealplanning web application that lets users find recipes by keyword and add them to the users' calendar.Built with HTML, CSS, React, Node, Express, and PostgreSQL with mocha, jest, and supertest. </p>
     </div>
+    <div class="card col-sm-12 col-lg-3">
+      <img src="" alt="" />
+      <h1>Viking Plumbing</h1>
+      {/* <iframe width="375" height="667" src="https://xd.adobe.com/embed/919e2c0b-ed35-41c8-a555-116d3d3d24ff-c4cd/" frameborder="0" allowfullscreen></iframe> */}
+      <div class="button-bar">
+      <button class="btn"><a target="_blank" href="https://tranquil-waters-99328.herokuapp.com/">Demo</a></button>
+      <button class="btn"><a target="_blank" href="https://github.com/brendenrdowd/vikingPlumbingWebsite">Code</a></button>
+      </div>
+      <p>Viking Plumbing is a small family owned business based in the Seattle area. They wanted a website built to draw in business as they previously had no web presence. </p>
+    </div>
+    <div class="card col-sm-12 col-lg-3">
+      <img src="" alt="" />
+      <h1>It Takes a Village</h1>
+      {/* <iframe width="375" height="667" src="https://xd.adobe.com/embed/919e2c0b-ed35-41c8-a555-116d3d3d24ff-c4cd/" frameborder="0" allowfullscreen></iframe> */}
+      <div class="button-bar">
+      <button class="btn"><a target="_blank" href="https://tranquil-waters-99328.herokuapp.com/">Demo</a></button>
+      <button class="btn"><a target="_blank" href="https://github.com/brendenrdowd/itTakesAVillage-client">Code</a></button>
+      </div>
+      <p>It takes a village is a community based altruism application that lets users post things they need, like food or assistance and lets others nearby opt to provide assistance if they can. This was a team project that I led the development on. I plan to update the styling to reflect my passion for design and experience. </p>
+    </div>
+    <div class="card col-sm-12 col-lg-3">
+      <img src="" alt="" />
+      <h1>Storefront</h1>
+      {/* <iframe width="375" height="667" src="https://xd.adobe.com/embed/919e2c0b-ed35-41c8-a555-116d3d3d24ff-c4cd/" frameborder="0" allowfullscreen></iframe> */}
+      <div class="button-bar">
+      <button class="btn"><a target="_blank" href="https://sleepy-harbor-12611.herokuapp.com/about#">Demo</a></button>
+      <button class="btn"><a target="_blank" href="https://github.com/brendenrdowd/storefront">Code</a></button>
+      </div>
+      <p>Storefront is an attempt to create a shopping cart based website that can function on its own or as a theme for sites like shopify. </p>
+    </div>
   </article>
   )
 }
