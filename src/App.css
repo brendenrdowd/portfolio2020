@@ -4,7 +4,9 @@
 
 .App {
   /* text-align: center; */
-  background-image:url('https://ch3302files.storage.live.com/y4mDv9mxi-ca2lEcQ_T2CIJnY03JO4pU-jrSNxkCAlJi89rMVZVYDui8ed0H0SMcOUMskzHm4JYhZmzOKoZaaulkRVN0sUPer1cywka_lD3uvjFUpDxK9OimGnspNvQGlfE2gooty78bCldYSWJwwZSuuhdcGUutKCOtF9Zkb3_tnA?width=768&height=1366&cropmode=none');
+  background: rgb(210,55,179);
+  background: linear-gradient(247deg, rgba(210,55,179,1) 0%, rgba(55,179,210,1) 100%);
+  /* background-image:url('https://ch3302files.storage.live.com/y4mDv9mxi-ca2lEcQ_T2CIJnY03JO4pU-jrSNxkCAlJi89rMVZVYDui8ed0H0SMcOUMskzHm4JYhZmzOKoZaaulkRVN0sUPer1cywka_lD3uvjFUpDxK9OimGnspNvQGlfE2gooty78bCldYSWJwwZSuuhdcGUutKCOtF9Zkb3_tnA?width=768&height=1366&cropmode=none'); */
   height:100vh;
   background-size:cover;
   background-repeat: no-repeat;
@@ -16,7 +18,7 @@
 /* anything greater than mobile */
 @media screen and (min-width:775px) {
   .App{
-    background-image: url('https://ch3302files.storage.live.com/y4m2Fa01qqjIlWN8aOywEiTstjVfXn7k94s0wxhh9IC9MKQgrx4lMK3AjP6CimVvMvvJE8jKr7SKRbb6Fj4SIRJTuFHukciO5Cg0rZxLJEDEARTPm8zfEX-Y6U-BghJy_fAyhscJoioxIPQQkTZ25A1fPUZiK-lXxFjPX6tqGSSgks?width=1366&height=768&cropmode=none');
+    /* background-image: url('https://images.unsplash.com/photo-1513364776144-60967b0f800f?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1351&q=80'); */
     background-position: top center;
 
     /* background-position: 50% 90%; */

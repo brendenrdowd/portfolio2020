@@ -5,7 +5,8 @@ import DrawerToggleButton from '../SideDrawer/DrawerToggleButton';
 import './Toolbar.css';
 
 const toolbar = (props) => (
-  <header className='toolbar '>
+  <header className='toolbar'>
+    <div class="glass">
     <nav className='toolbar__navigation'>
       <div className='toolbar__logo'>
         <Link to='/'>BRENDEN DOWD</Link>
@@ -18,6 +19,7 @@ const toolbar = (props) => (
         <NavLinks />
       </div>
     </nav>
+    </div>
   </header>
 );
 

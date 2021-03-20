@@ -20,7 +20,8 @@ h3{
 
 h1,h2,h3,.hero-text{
   font-family: 'Fira Code', monospace;
-  display:block
+  display:block;
+  color:white;
 }
 
 ::-webkit-scrollbar {
@@ -29,17 +30,17 @@ h1,h2,h3,.hero-text{
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #f1f1f1; 
+  background: rgba(255,255,255,0.3); 
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #888; 
+  background: #2a9dba; 
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #555; 
+  background: #217a90; 
 }
 
 .view{
@@ -92,10 +93,16 @@ nav{
 } */
 
 
+/* .glass{
+  background: rgba(255,255,255,0.4);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border: 2px solid rgba(255,255,255,0.2);
+} */
+
 .cta{
   /* position: relative;
   top:80; */
-  margin-top:10%;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -105,16 +112,16 @@ nav{
   box-sizing: border-box;
   width:100%;
   padding:1em 5%;
-  border: 5px solid black;
+  /* border: 5px solid black; */
   text-decoration: none;
   text-align: center;
-  color:black;
+  color:#092228;
   font-size:150%;
   font-weight:600;
   font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
   letter-spacing: 0.5em;
-  background-color:RGBA(255,255,255,0.2);
-  box-shadow: 0.25em 0.25em 0.25em gray;
+  /* background-color:RGBA(255,255,255,0.2); */
+  /* box-shadow: 0.25em 0.25em 0.25em gray; */
   /* margin-top:5%; */
   /* position: relative; */
   /* top: 100; */
@@ -124,7 +131,8 @@ nav{
 
 .cta-btn:hover{
   /* box-shadow: 0.25em 0.25em 0.25em white; */
-  background-color:RGBA(255,255,255,0.6);
+  background-color:RGBA(255,255,255,0.3);
+  /* background: rgba(255,255,255,0.4); */
 }
 @media screen and (min-width:548px) {
   .cta-btn{
@@ -169,8 +177,8 @@ nav{
 }
 .card{
   height: max-content;
-  background-color:rgba(255,255,255,0.4);
-  box-shadow:3px 3px 30px gray;
+  /* background-color:rgba(255,255,255,0.4); */
+  /* box-shadow:3px 3px 30px gray; */
   margin:0.5em;
   /* max-height:60%; */
   box-sizing:border-box;
@@ -182,7 +190,7 @@ nav{
   text-align:center;
   margin:auto;
   text-decoration: none;
-  color:slategray;
+  color:#9a2382;
 }
 
 .card img, .card iframe{
@@ -208,7 +216,7 @@ nav{
   padding:1em 2em;
   border:none;
   border-radius: 5px;
-  background-color:black;
+  background-color:#9a2382;
   font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -217,8 +225,9 @@ nav{
 }
 
 .btn:hover{
-  background-color:gray;
+  background-color:#58A0CE;
   box-shadow:1em 1em 2em gray;
+  cursor: pointer;
 }
 
 .backgroundFill{
@@ -228,10 +237,10 @@ nav{
   max-height:80%;
   flex-direction:column;
   /* justify-content: space-around; */
-  background-color:rgba(255,255,255,0.4);
+  /* background-color:rgba(255,255,255,0.4); */
   word-wrap:break-word;
   overflow-y:auto;
-  box-shadow:3px 3px 30px gray;
+  /* box-shadow:3px 3px 30px gray; */
 }
 
 .backgroundFill > h2 {
@@ -249,7 +258,11 @@ nav{
   text-decoration:none;
   font-weight:bold;
   font-size:4.5vw;
-  color:#203b51;
+  color:#9a2382;
+}
+
+.mailLink:hover{
+  opacity: 0.5;
 }
 
 .center{
@@ -288,11 +301,11 @@ nav{
 }
 
 .logoLink{
-  color:black;
+  color:#9a2382;
   margin:1em;
 }
 .logoLink:hover{
-  color:slategray;
+  opacity: 0.5;
   /* box-shadow:0.5em 0.5em 1em gray; */
 }
 

@@ -16,7 +16,7 @@ export default class App extends Component {
       backdrop = <Backdrop />;
     }
     const imageUrl = process.env.PUBLIC_URL + '/portfolioBackground1.jpg'
-    console.log(imageUrl)
+    // console.log(imageUrl)
     return (
       <section className="App">
       <Router>

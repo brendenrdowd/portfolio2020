@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function About() {
   return (
-    <article className="backgroundFill left">
+    <article className="backgroundFill left glass">
     {/* <h3 className="left">About Me.</h3> */}
     <p>My Name is Brenden Dowd. I'm a LA based full stack developer and designer. </p>
     <p>I have a passion for design and problem solving. I am obsessed with the art

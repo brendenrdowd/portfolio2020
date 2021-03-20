@@ -9,7 +9,7 @@ export default function Home() {
         <h2 className="hero-text">I paint on code.</h2>
       </div>
       <div className="cta">
-        <Link to="/work" className="cta-btn">PORTFOLIO</Link>
+        <Link to="/work" className="cta-btn glass">PORTFOLIO</Link>
       </div>
     </article>
   )

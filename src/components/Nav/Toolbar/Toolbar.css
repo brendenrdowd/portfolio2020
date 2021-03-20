@@ -5,11 +5,19 @@
   position: fixed;
   top: 0;
   left: 0;
-  background-color: black;
-  height: 10%;
-  box-shadow:0 10px 10px 10px black;
-  padding-top:1em;
+  background: rgba(255,255,255,0.4);
+  /* glassmorphism */
+  /* height: 75px; */
+  /* box-shadow:0 10px 10px 10px black; */
+  /* padding-top:1em; */
   box-sizing: border-box;
+}
+
+.glass{
+  background: rgba(255,255,255,0.4);
+  /* background: linear-gradient(152deg, rgba(255,255,255,0.7147233893557423) 0%, rgba(255,255,255,0.5018382352941176) 50%, rgba(255,255,255,0.3113620448179272) 100%); */
+  border-radius: 10px;
+  border: 2px solid rgba(255,255,255,0.2);
 }
 
 .toolbar__navigation {
@@ -22,12 +30,14 @@
 
 .toolbar__logo {
   margin-left: 1rem;
+  padding:20px 0;
 }
 
 .toolbar__logo a {
-  color: white;
+  color: #092228;
   text-decoration: none;
   font-size: 1.75rem;
+  font-weight:bolder;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -40,15 +50,46 @@
   margin: 0;
   padding: 0;
   display: flex;
+  height:100%;
   margin-right: 1.5em;
 }
 
-.toolbar__navitgation-items li {
-  padding: 0 0.5rem;
-  font-size: 2rem;
+.toolbar__navitgation-items a {
+  /* padding: 0 0.5rem; */
+  font-size: 1.5rem;
+  font-weight: bold;
+  /* font-size: 14px; */
+  text-transform: uppercase;
+  text-decoration: none;
+  color:#092228;
+  font-family: 'Roboto', sans-serif;
+  padding: 20px 0px;
+  margin: 0px 20px;
+  display: inline-block;
+  position: relative;
+  opacity: 1;
 }
 
-.toolbar__navitgation-items a {
+.toolbar__navitgation-items a:hover {
+  color:white;
+}
+
+.toolbar__navitgation-items a::before {
+  transition: 300ms;
+  /* height: 5px; */
+  content: "";
+  position: absolute;
+  background-color: white;
+  height: 0%;
+  width: 100%;
+  bottom: 0px;
+}
+
+.toolbar__navitgation-items a:hover::before {
+  height: 5px;
+}
+
+/* .toolbar__navitgation-items a {
   color: white;
   font-family: 'Roboto', sans-serif;
   text-decoration: none;
@@ -56,7 +97,7 @@
 .toolbar__navitgation-items a:hover,
 .toolbar__navitgation-items a:active {
   color: silver;
-}
+} */
 
 @media (min-width:400px){
   .toolbar__logo a {
