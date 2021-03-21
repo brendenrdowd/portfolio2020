@@ -15,7 +15,7 @@ export default class App extends Component {
     if (this.context.sideDrawerOpen) {
       backdrop = <Backdrop />;
     }
-    const imageUrl = process.env.PUBLIC_URL + '/portfolioBackground1.jpg'
+    // const imageUrl = process.env.PUBLIC_URL + '/portfolioBackground1.jpg'
     // console.log(imageUrl)
     return (
       <section className="App">

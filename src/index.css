@@ -35,12 +35,12 @@ h1,h2,h3,.hero-text{
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #2a9dba; 
+  background: rgba(255,255,255,0.8); 
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #217a90; 
+  background: rgba(255,255,255,1); 
 }
 
 .view{
@@ -228,6 +228,10 @@ nav{
   background-color:#58A0CE;
   box-shadow:1em 1em 2em gray;
   cursor: pointer;
+}
+
+.w100{
+  width:99vw;
 }
 
 .backgroundFill{

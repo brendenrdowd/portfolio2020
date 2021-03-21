@@ -6,11 +6,13 @@ import pContext from '../../../pContext';
 export class NavLinks extends Component {
   static contextType = pContext;
 
+  // location = useLocation();
+
   closeModal = () => {
     this.context.closeBackdrop();
   };
   // need to grab active link from params or context
-
+  
   render() {
     let links = [
         // Link to homepage/dashboard

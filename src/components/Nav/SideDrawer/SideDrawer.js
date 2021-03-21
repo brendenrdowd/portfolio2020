@@ -3,7 +3,7 @@ import NavLinks from '../NavLinks/NavLinks';
 import './SideDrawer.css';
 
 const SideDrawer = (props) => {
-  let drawerClasses = 'side-drawer';
+  let drawerClasses = 'side-drawer glass';
   if (props.show) {
     drawerClasses = 'side-drawer open';
   }

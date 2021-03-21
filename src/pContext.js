@@ -4,6 +4,7 @@ import React, { Component } from 'react';
 const pContext = React.createContext({
   toggleSideDrawer: () => {},
   closeBackdrop: () => {},
+  path:""
 })
 
 export default pContext;
@@ -28,6 +29,7 @@ export class PProvider extends Component {
       sideDrawerOpen: this.state.sideDrawerOpen,
       closeBackdrop: this.handleBackdropClose,
       toggleSideDrawer: this.drawerToggleClickHandler,
+      path:""
     }
     return (
       <pContext.Provider value={value}>

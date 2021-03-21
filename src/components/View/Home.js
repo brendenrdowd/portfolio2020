@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <article>
       <div className="hero">
-        <h2 className="hero-text">I'm Brenden Dowd.</h2>
+        <h2 className="hero-text">My Name is Brenden Dowd.</h2>
         <h2 className="hero-text">I paint on code.</h2>
       </div>
       <div className="cta">
