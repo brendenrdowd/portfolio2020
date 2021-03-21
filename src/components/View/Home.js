@@ -6,7 +6,7 @@ export default function Home() {
     <article>
       <div className="hero">
         <h2 className="hero-text">My Name is Brenden Dowd.</h2>
-        <h2 className="hero-text">I paint on code.</h2>
+        <h2 className="hero-text">I paint in code.</h2>
       </div>
       <div className="cta">
         <Link to="/work" className="cta-btn glass">PORTFOLIO</Link>

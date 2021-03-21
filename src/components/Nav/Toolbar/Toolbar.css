@@ -5,8 +5,8 @@
   position: fixed;
   top: 0;
   left: 0;
-  background: rgba(255,255,255,0.4);
   /* glassmorphism */
+  background: rgba(255,255,255,0.4);
   /* height: 75px; */
   /* box-shadow:0 10px 10px 10px black; */
   /* padding-top:1em; */
@@ -15,8 +15,9 @@
 
 .glass{
   background: rgba(255,255,255,0.4);
-  /* background: linear-gradient(152deg, rgba(255,255,255,0.7147233893557423) 0%, rgba(255,255,255,0.5018382352941176) 50%, rgba(255,255,255,0.3113620448179272) 100%); */
+  background: linear-gradient(152deg, rgba(255,255,255,0.7147233893557423) 0%, rgba(255,255,255,0.5018382352941176) 50%, rgba(255,255,255,0.3113620448179272) 100%);
   border-radius: 10px;
+  backdrop-filter: blur(10px);
   border: 2px solid rgba(255,255,255,0.2);
 }
 
