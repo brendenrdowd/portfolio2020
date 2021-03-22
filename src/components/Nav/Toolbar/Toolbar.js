@@ -8,7 +8,7 @@ const toolbar = (props) => (
   <header className='toolbar'>
     <div class="glass">
     <nav className='toolbar__navigation'>
-      <div className='toolbar__logo'>
+      <div className='toolbar__logo glitch' data-text="BRENDEN DOWD">
         <Link to='/'>BRENDEN DOWD</Link>
       </div>
       <div className='spacer'></div>

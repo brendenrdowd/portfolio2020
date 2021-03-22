@@ -86,7 +86,7 @@
   bottom: 0px;
 }
 
-.toolbar__navitgation-items a:hover::before {
+a.active::before, .toolbar__navitgation-items a:hover::before {
   height: 5px;
 }
 

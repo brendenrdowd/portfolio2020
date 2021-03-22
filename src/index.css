@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&family=Roboto&display=swap");
-
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -62,7 +61,6 @@ h1,h2,h3,.hero-text{
 nav{
   display:block;
 }
-
 
 .hero-text {
   font-size:2em;
@@ -132,6 +130,7 @@ nav{
 .cta-btn:hover{
   /* box-shadow: 0.25em 0.25em 0.25em white; */
   background-color:RGBA(255,255,255,0.3);
+  transition-duration: 0.5s;
   /* background: rgba(255,255,255,0.4); */
 }
 @media screen and (min-width:548px) {
@@ -182,7 +181,9 @@ nav{
   margin:0.5em;
   /* max-height:60%; */
   box-sizing:border-box;
+  /* transition: 1s box-shadow; */
 }
+
 .card h1{
   text-align:center;
 }
@@ -217,6 +218,7 @@ nav{
   border:none;
   border-radius: 5px;
   background-color:#9a2382;
+  background: linear-gradient(329deg, rgba(154,35,130,1) 0%, rgba(205,60,181,1) 66%, rgba(228,137,210,1) 100%);
   font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -225,8 +227,10 @@ nav{
 }
 
 .btn:hover{
-  background-color:#58A0CE;
-  box-shadow:1em 1em 2em gray;
+  background: rgb(28,102,123);
+background: linear-gradient(329deg, rgba(28,102,123,1) 0%, rgba(59,176,210,1) 66%, rgba(123,202,225,1) 100%);
+
+  /* box-shadow:1em 1em 2em lightblue; */
   cursor: pointer;
 }
 
@@ -263,10 +267,29 @@ nav{
   font-weight:bold;
   font-size:4.5vw;
   color:#9a2382;
+  /* color:linear-gradient(152deg, rgba(210,55,179,1) 0%, rgba(55,179,210,0.31) 100%); */
 }
 
 .mailLink:hover{
   opacity: 0.5;
+}
+
+.profileImg{
+  max-height:25vh;
+  opacity: 0.9;
+}
+.profile{
+  display:flex;
+  justify-content:space-between;
+  overflow: hidden;
+}
+
+.profile > div{
+  margin-left:1em;
+
+}
+.profile > div > p:first-child{
+  margin-top:0 !important;
 }
 
 .center{
@@ -306,6 +329,7 @@ nav{
 
 .logoLink{
   color:#9a2382;
+  /* color:linear-gradient(152deg, rgba(210,55,179,1) 0%, rgba(55,179,210,0.31) 100%); */
   margin:1em;
 }
 .logoLink:hover{

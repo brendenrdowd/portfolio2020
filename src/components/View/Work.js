@@ -23,7 +23,7 @@ export default function Work() {
       <img src="" alt="" />
       <h1>Quest Board</h1>
       <iframe title="Quest Board" width="375" height="750" src="https://xd.adobe.com/embed/5be66125-eb7e-4866-a699-689c5bf820c9-0eb5/" frameborder="0" allowfullscreen></iframe>
-      <p><span className="demo">You can demo me!</span>When I was browsing reddit I someone mentioned that its hard to find people to play Dungeons and Dragons with, so I wanted to make a matchmaking app to make it easier for people to find others to play any tabletop game with.</p>
+      <p><span className="demo">You can demo me!</span>When I was browsing reddit someone mentioned that its hard to find people to play Dungeons and Dragons with, so I wanted to make a matchmaking app to make it easier for people to find others to play any tabletop game with.</p>
     </div>
     <div class="card col-sm-12 col-lg-3 glass">
       <img src="" alt="" />
