@@ -1,11 +1,12 @@
 import React from 'react'
+import profileImage from '../../assets/brendendowd.jpg'
 
 export default function About() {
   return (
     <article className="backgroundFill left glass">
     {/* <h3 className="left">About Me.</h3> */}
     <section class="profile">
-    <img className="profileImg" src="https://ch3302files.storage.live.com/y4pb3FIYoeTupl110y8j4axhAtiWAQNNfk62HIqRTevwgG87gJfbmXCJrniYroaVTK8wM9JOItrHJxi6CBFN_7gzgMV__t3UB1C5vNLV5_RRJu1UUAlUzYUqnCng6EU3wR8yidyXFLj9Dt4ZT8PDhULVlaHHtKX7V3ve7Pc7t8sHUxshJmjRwcXryHWrkxDulljf7lu8UzDZIJ9wXozVZfVCIVhZFrAo-KF9giHJc6Cs0c/IMDB.jpg?psid=1&width=717&height=898" alt="brenden dowd" />
+    <img className="profileImg" src={profileImage} alt="brenden dowd" />
     <div>
     <p>My Name is Brenden Dowd. I'm a LA based full stack developer and designer. </p>
     <p>I have a passion for design and problem solving. I am obsessed with the art
