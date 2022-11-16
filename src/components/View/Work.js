@@ -73,6 +73,29 @@ export default function Work() {
       <div class="card col-sm-12 col-lg-3 glass">
         <img class="work-icon" src={codeLogo} alt="code logo" />
         <div class="flex-col pad-1 ">
+          <h1 class="black">Empower Health</h1>
+          <p class="work-text">During my time at GW Apps, I was the primary developer responsible for building out new features or enhancing existing ones and fixing existing issues.</p>
+          <p class="work-text">No code is available for display for this project as it is owned by GWApps and is proprietary </p>
+          <div class="button-bar">
+            <button class="btn"><a target="_blank" rel="noreferrer" href="http://empower.health/">Live Site</a></button>
+          </div>
+        </div>
+      </div>
+      <div class="card col-sm-12 col-lg-3 glass">
+        <img class="work-icon" src={codeLogo} alt="code logo" />
+        <div class="flex-col pad-1 ">
+          <h1 class="black">Phius</h1>
+          <p class="work-text">During my time at Zbrains I was the lead designer and front end developer for this portal which integrates with Phius' Zoho CRM </p>
+          <p class="work-text">No code is available for display for this project as it is owned by ZBrains and is proprietary </p>
+          <div class="button-bar">
+            <button class="btn"><a target="_blank" rel="noreferrer" href="http://phius.fieldtech.io/">Live Site</a></button>
+
+          </div>
+        </div>
+      </div>
+      <div class="card col-sm-12 col-lg-3 glass">
+        <img class="work-icon" src={codeLogo} alt="code logo" />
+        <div class="flex-col pad-1 ">
           <h1 class="black">Mealplan</h1>
           <p class="work-text">Nutrionist is a mealplanning web application that lets users find recipes by keyword and add them to the users' calendar.Built with HTML, CSS, React, Node, Express, and PostgreSQL with mocha, jest, and supertest. </p>
           <div class="button-bar">
